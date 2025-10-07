@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario
+    </title>
+</head>
+<body>
+    <h1>
+        Mi primer formulario
+    </h1>
+
+    <br>
+    <style>
+        body{
+            background-image: url(Imagen\ de\ WhatsApp\ 2025-10-05\ a\ las\ 02.15.52_34b095c9.jpg);
+        }
+       h1{
+        color: antiquewhite;
+       }
+       form{
+        color: antiquewhite;
+       }
+       label{
+        color: antiquewhite;
+       }
+    </style>
+
+    <form action="">
+        <label for="nombre">
+            Nombre(s)
+        </label>
+        <input type="text" 
+        name="nombre" id="campo-nombre">
+        
+        <br>
+        <label for="apellidos">
+            apellidos
+            <input type="text" name="apellidos" id="campo-apellidos">
+        </label>
+        <br>
+            <label for="correo elecronico">
+                correo electronico
+            </label>
+            <input type="email" name="correo elecronico" id="campo-correo-electronico">
+
+            <br>
+            <label for="telefono">
+                telefono
+            </label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <br>
+            <input type="submit" value="enviar datos">
+            <br>
+
+            <button type="submit">guardar datos</button>
+
+    </form>
+
+    <br>
+    <br>
+    <label for="">
+        fecha de creacion
+    </label>
+    <input type="date" name="fecha" id="-fechas">
+
+    <br>
+    <br>
+
+    <form action="button">
+        <label for="calle">
+            calle
+        </label>
+        <input type="text" name="calle" id="campo-calle">
+        <br>
+        <label for="colonia">
+            colonia
+        </label>
+        <input type="text" name="colonia" id="campo-colonia">
+        <button type="submit">enviar Direccion</button>
+    </form>
+
+
+    <br>
+
+    <form action="button">
+        <label for="email">email
+            <input type="email" id="email" name="email" />
+        </label>
+        <br>
+        <label for="email multiple">email multiple
+            <input type="email" id="email" name="email" multiple />
+        </label>
+        <br>
+        <label for="campo de busqueda">campo de busqueda
+            <input type="search" id="search" name="search" />
+        </label>
+        <br>
+        <label for="numero de telefono">numero de telefono
+            <input type="tel" id="tel" name="tel" />
+        </label>
+        <br>
+        <label for="campo url">campo url
+            <input type="url" id="url" name="url" />
+        </label>
+        <br>
+        <label for="campo numerico">campo numerico
+            <input type="number" name="age" id="age" min="1" max="10" step="2" />
+        </label>
+        <br>
+        <label for="control numerico">control numerico</label>
+        <input type="number" name="change" id="pennies" min="0" max="1" step="0.01" />
+        <br>
+        <button type="submit">enviar campos</button>
+
+    </form>
+    <label for="price">Choose a maximum house price: </label>
+<input
+  type="range"
+  name="price"
+  id="price"
+  min="50000"
+  max="500000"
+  step="100"
+  value="250000" />
+<output class="price-output" for="price"></output>
+
+    
+</body>
+</html>
